@@ -23,6 +23,7 @@ public class Box {
         this.l = l;
         this.h = h;
         this.w = w;
+         System.out.println("# perameter passes");
     }
     Box(Box old){
         this.h= old.h;

@@ -14,6 +14,13 @@ public class Main {
         Squre squre=new Squre();
         squre.side=20;
         squre.area();
+
+        Shape shape= new Shape();
+        Shape circle1= new Circle();
+        Shape squre1=new Squre();
+        Shape triangle1=new Triangle();
+
+        circle1.area();
     }
 
 }

@@ -10,6 +10,10 @@ public class Employee {
         this.name = name;
         this.salary = salary;
     }
+    public Employee(String ID, String name) {
+        this.ID = ID;
+        this.name = name;
+    }
     public int annualSalary(int bonus, int increment){
         int totalSalary= salary*12;
         totalSalary+=bonus;

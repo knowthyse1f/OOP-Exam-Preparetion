@@ -10,6 +10,9 @@ public class FullTimeEmployee extends Employee{
 
     @Override
     public int annualSalary(int bonus, int increment) {
-        return super.annualSalary(bonus, increment);
+        if(isFullTimeEmployee){
+            return super.annualSalary(bonus, increment);
+        }
+        return 0;
     }
 }
