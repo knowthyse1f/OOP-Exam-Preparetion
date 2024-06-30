@@ -1,4 +1,4 @@
-package com.safu.examquestionsolve.q6b;
+package com.safu.examquestionsolve.q6c;
 
 public class Employee {
     String name;
